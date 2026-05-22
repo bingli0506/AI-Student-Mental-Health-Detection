@@ -1,11 +1,3 @@
-Article
-
-The Application of AI-Based Early Detection of Mental Health Issues Among University Students in Academic Settings
-- Article Type: AI Application
-- Journal: 
-- Author: Bing Li, Wenkai Li
-- Affiliation: School of Foreign Languages and Literature, Shan Dong University; Department of Mathematics and Statistics, Manchester University
-- Contact: libingcrystal@126.com
 
 Description
 
@@ -381,54 +373,4 @@ Contributors should provide concise descriptions of their changes, including:
 
 Clear documentation ensures that future researchers and institutions can effectively adopt and extend the framework for mental health monitoring in academic settings.
 
-Contact
 
-Author: Bing Li  
-Affiliation: School of Foreign Languages and Literature, Shandong University, Jinan 250100, P. R. China  
-Email: libingcrystal@126.com  
-Website: Not provided
-
-Co-author: Wenkai Li  
-Affiliation: Department of Mathematics and Statistics, Manchester University, Manchester, UK, M13 9NH  
-Email: Not provided  
-Website: Not provided
-
-
-
-
-AI-Student-Mental-Health-Detection/
-├── py/
-│   ├── data/
-│   │   ├── init.py
-│   │   ├── data_loader.py  # Data loader for dataset
-│   │   └── data_preprocess.py  # Data preprocessing functions
-│   ├── experiments/
-│   │   ├── init.py
-│   │   ├── evaluate.py  # Evaluation script for experiments
-│   │   ├── train.py  # Training script for experiments
-│   │   └── visualization.py  # Visualization script for experiments
-│   ├── models/
-│   │   ├── init.py
-│   │   ├── model_alignment.py  # Alignment model implementation
-│   │   ├── model_base.py  # Base model class
-│   │   ├── model_encoder.py  # Encoder model implementation
-│   │   └── model_retrieval.py  # Retrieval model implementation
-│   ├── strategies/
-│   │   ├── init.py
-│   │   ├── strategy_intent.py  # Intent strategy implementation
-│   │   ├── strategy_relevance.py  # Relevance strategy implementation
-│   │   └── strategy_sequence.py  # Sequence strategy implementation
-│   ├── utils/
-│   │   ├── init.py
-│   │   └── utils.py  # Utility functions for utils module
-│   ├── .gitignore
-│   ├── config.py  # Global configuration file
-│   ├── LICENSE
-│   └── main.py  # Main program entry point
-├── Raw data/
-│   ├── AI-Early-Detection-Student-Mental-Health_3_preprocessed.xlsx
-│   ├── AI-Early-Detection-Student-Mental-Health_4_preprocessed.xlsx
-│   ├── Student_Mental_Health_preprocessed.xlsx
-│   └── Student_Mental_Health_preprocessed_1.xlsx
-├── AI-Student-Mental-Health-Detection.md
-└── README.txt
